@@ -131,3 +131,9 @@ a{
     cursor: not-allowed;
     pointer-events: none;
 }
+
+.info{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

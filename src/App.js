@@ -129,6 +129,10 @@ class App extends React.Component {
           {
             thingsArray.length <= 0 ? <p>Try to add Transactions to generate report</p> : null
           }
+          <div className="info">
+            <span>Github: </span>
+            <a href="https://github.com/sakshgupta">@sakshgupta</a>
+          </div>
         </div>
       </div>
     );

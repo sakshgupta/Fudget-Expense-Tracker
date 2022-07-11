@@ -73,7 +73,7 @@ export function PdfDocument(props) {
             <Page style={styles.page}>
                 <Text style={styles.header} fixed>
                     ~ Generated from Expense Tracker ~
-      </Text>
+                </Text>
                 <View >
                     <Text style={styles.title}>Transactions Report</Text>
                     <Text style={styles.income}>Income : ${props.income}</Text>
