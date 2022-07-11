@@ -1,0 +1,38 @@
+
+.list{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.list p{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    width: 200px;
+    text-align: center;
+}
+
+.green {
+    border: 2px solid green;
+    background-color: #CEE5D0;
+    /* box-shadow: 2px 2px 4px #09b917, -2px -2px 4px #09b917; */
+}
+
+.red{
+    border: 2px solid red;
+    background-color: #ECB390;
+    /* box-shadow: 2px 2px 4px #ee0808, -2px -2px 4px #ee0808; */
+}
+
+.red-cross{
+    color: #fc5f5f;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.red-cross:hover{
+    color : red;
+    transform: scale(1.2);
+}

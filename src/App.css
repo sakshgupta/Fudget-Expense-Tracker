@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.App{
+    color: #181616;
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;    
+}
+
+h4{
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.App > h1{
+    padding: 20px;
+    font-size: 3.5rem;
+    color: black;
+    background-color: #94B49F;
+    border-bottom: 3px solid  green;
+    display: flex;
+    justify-content: center;
+
+}
+
+.App > h1 > img{
+    margin-right: 30px;
+    max-height: 60px;
+    padding-top: 8px;
+}
+
+.container{
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 50px;
+    max-width: 900px;
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+}
+
+.box > .amountBox:last-child{
+    background-color: #ECB390;
+    border: 2px solid red;
+    padding: 20px 50px;
+    border-radius: 25px;
+}
+
+.box > .amountBox:first-child{
+    background-color: #CEE5D0;
+    border : 2px solid green;
+    padding: 20px 50px;
+    border-radius: 25px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .App > h1{
+        font-size: 2.8rem;
+    }
+    
+    .box{
+        flex-direction: column;
+    }
+    .balance{
+        font-size: unset;
+    }
+    .amountBox{
+        margin: 10px !important;
+        text-align: center;
+        padding: 20px 0px !important;
+    }
+    .amountBox > h1{
+        font-size: 1.2rem;
+    }
+
+    .transaction > h1 {
+        margin: 0;
+        font-size: 1.2rem;
+        height:  60px;
+    }
+
+    .transaction > h1 > span{
+        float : unset !important;
+    }
+
+    .transaction-heading{
+        font-size: 1.5rem;
+    }
+
+    .list {
+        margin: 0;
+        flex-direction: column;
+    }
+    .list p{
+        font-size: 1.3rem !important;
+        width: unset !important;
+    }
+    .App > h1 > img{
+        height: 80px;
+        padding-top: 15px;
+    }
+}
+
+a{
+    padding: unset !important;
+    color: unset !important;
+    background-color: unset !important;
+    border: none !important;
+}
+
+.pdf{
+    background-color: white;
+    color: red;
+    font-size: 22px;
+    padding: 10px 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.icon-pdf{
+    font-size: 24px;
+}
+
+.disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+}

@@ -1,0 +1,73 @@
+
+.transaction{
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.transaction > h1{
+    margin: 10px;
+    background-color: #94B49F;
+    border: 2px solid #94B49F;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.transaction > h1:hover{
+    color: black;
+    background-color: #CEE5D0;
+    transition: 0.3s ease-in-out;
+}
+
+
+form{
+    padding: 10px ;
+}
+
+.transaction form label{
+    font-size: 20px;
+    margin: 15px 0;
+    color: black;
+    font-weight: bolder;
+}
+
+.transaction> form> input{
+    display: block;
+    margin: 5px 0;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #CEE5D0;
+    border : 2px solid #94B49F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+button{
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    background-color: #94B49F;
+    border: 2px solid #94B49F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+    background-color: #CEE5D0;
+    color: black;
+}
+
+input[type="radio"]{
+    display: inline;
+}
+
+label{
+    display: block;
+}
