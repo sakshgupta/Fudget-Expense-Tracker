@@ -1,7 +1,7 @@
 
 ## 🤑 Fudget Expense Tracker in React ⚛️
 
-### ⚡️ Demo Link : Soon
+### ⚡️ Demo Link : https://genuine-toffee-cd69af.netlify.app/
  
 ![Image1](./images/expense1.png)
 
